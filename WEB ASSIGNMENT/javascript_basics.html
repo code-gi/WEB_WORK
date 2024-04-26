@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>My first Javascript</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        click me to display date and time
+
+    </button>
+    <p id="demo"></p>
+<h2>Use javascript to change text</h2>
+<p>This example writes 'hello javascript!' into an HTML element with id="text"</p>
+<p id="text"> Javascript can change astyle of an HTML element</p>
+
+<button type="button" onclick="document.getElementById('text').style.fontSize='35px' " >
+    ' click to change fontsize'
+</button>
+<h2>What javascript can do</h2>
+<p>Javascript can change attribute values. In this case Javascript changes the value of src attribute of an image</p>
+
+<button onclick="document.getElementById('myImage').src='IMAGES/BULB ON.avif'">Turn on 
+    the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='IMAGES/BULB OFF.jpg'">Turn off 
+    the light</button>
+
+    <h2>What javascript can do</h2>
+    <p>Javascript can change hide and show an element</p>
+    <p id="demo1" style="display:none">Javascript can change hide and show an element</p>
+    
+    <button type="button" onclick="document.getElementById('demo1').style.display ='block'">view more</button>
+       
+        <button type="button" onclick="document.getElementById('demo1').style.display='none'">view less</button>
+    
+
+</body>
+</html>
